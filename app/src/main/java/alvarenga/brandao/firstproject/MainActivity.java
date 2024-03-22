@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
 
-//            função onclick
+//            funcao onclick
             public void onClick(View v) {
 //                pega elemento EditText na tela
                 EditText etDigiteAqui = findViewById(R.id.etDigiteAqui);
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 //                cria um intent para navegar de uma tela pra outra
                 Intent i = new Intent(MainActivity.this, NextActivity.class);
 
-//                adiciona o texto na intent através do putExtra
+//                adiciona o texto na intent atraves do putExtra
                 i.putExtra("texto", textoDigitado);
 
 //                abre a segunda tela
