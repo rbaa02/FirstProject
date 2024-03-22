@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
 //        captura o Button na tela
         Button btnEnviar = findViewById(R.id.btnEnviar);
 
-//        adiciona um evento onClickListener no botao
+//        adiciona um "ouvidor de eventos" de quando clicam no botao
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
 
-//            funcao onclick
+//            funcao que executa toda vez que o botao e clicado
             public void onClick(View v) {
 //                pega elemento EditText na tela
                 EditText etDigiteAqui = findViewById(R.id.etDigiteAqui);
