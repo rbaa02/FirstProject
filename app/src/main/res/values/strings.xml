@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">FirstProject</string>
+    <string name="et_digite_aqui">Digite alguma coisa aqui</string>
+    <string name="btn_enviar">enviar</string>
+</resources>
